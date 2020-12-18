@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://dozer.sourceforge.net"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping map-id="StoreEntity_Store">
+        <class-a>com.project.migros.entity.StoreEntity</class-a>
+        <class-b>com.project.migros.base.dto.Store</class-b>
+        <field>
+            <a>strId</a>
+            <b>storeId</b>
+        </field>
+        <field>
+            <a>lat</a>
+            <b>latitude</b>
+        </field>
+        <field>
+            <a>lng</a>
+            <b>longitude</b>
+        </field>
+    </mapping>
+
+    <mapping map-id="CourierEntity_Courier">
+        <class-a>com.project.migros.entity.CourierEntity</class-a>
+        <class-b>com.project.migros.base.dto.Courier</class-b>
+        <field>
+            <a>courId</a>
+            <b>courierId</b>
+        </field>
+        <field>
+            <a>arrvlTime</a>
+            <b>arrivalTime</b>
+        </field>
+        <field>
+            <a>lat</a>
+            <b>latitude</b>
+        </field>
+        <field>
+            <a>idNum</a>
+            <b>identityNumber</b>
+        </field>
+        <field>
+            <a>lng</a>
+            <b>longitude</b>
+        </field>
+        <field>
+            <a>dstnc</a>
+            <b>distance</b>
+        </field>
+        <field>
+            <a>lstStr</a>
+            <b>lastStore</b>
+        </field>
+    </mapping>
+</mappings>
